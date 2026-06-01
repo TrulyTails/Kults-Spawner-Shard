@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:egg",
+    "F": "minecraft:feather",
+    "S": "kults_spawner_shards:spawner_shard"
+  },
+  "pattern": [
+    "FFF",
+    "FSF",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chicken_spawn_egg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:arrow",
+    "B": "minecraft:bone",
+    "S": "kults_spawner_shards:spawner_shard"
+  },
+  "pattern": [
+    "BAB",
+    "ASB",
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:skeleton_spawn_egg"
+  }
+}

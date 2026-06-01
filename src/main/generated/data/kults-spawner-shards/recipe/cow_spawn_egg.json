@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:beef",
+    "L": "minecraft:leather",
+    "S": "kults_spawner_shards:spawner_shard"
+  },
+  "pattern": [
+    "LLB",
+    "LSB",
+    "LBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cow_spawn_egg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spawner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spawner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kults-spawner-shards:chicken_spawn_egg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_spawner"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kults-spawner-shards:chicken_spawn_egg"
+    ]
+  }
+}

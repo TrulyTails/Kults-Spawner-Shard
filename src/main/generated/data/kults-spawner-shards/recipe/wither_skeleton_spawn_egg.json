@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "R": "minecraft:wither_rose",
+    "S": "kults_spawner_shards:spawner_shard",
+    "W": "minecraft:wither_skeleton_skull"
+  },
+  "pattern": [
+    "WWW",
+    "RSR",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wither_skeleton_spawn_egg"
+  }
+}

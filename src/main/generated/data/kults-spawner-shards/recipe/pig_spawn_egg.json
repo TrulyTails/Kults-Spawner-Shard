@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:carrot",
+    "P": "minecraft:porkchop",
+    "S": "kults_spawner_shards:spawner_shard"
+  },
+  "pattern": [
+    "PPP",
+    "CSC",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pig_spawn_egg"
+  }
+}

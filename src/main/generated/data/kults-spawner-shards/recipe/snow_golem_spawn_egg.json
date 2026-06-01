@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:snow_block",
+    "P": "minecraft:carved_pumpkin",
+    "S": "kults_spawner_shards:spawner_shard"
+  },
+  "pattern": [
+    "NPN",
+    "NSN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:snow_golem_spawn_egg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "kults-spawner-shards",
+	"version": "${version}",
+	"name": "Kults Spawner Shards",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kults_spawner_shards/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rankless.KultsSpawnerShards"
+		],
+		"client": [
+			"net.rankless.client.KultsSpawnerShardsClient"
+		],
+		"fabric-datagen": [
+			"net.rankless.client.KultsSpawnerShardsDataGenerator"
+		]
+	},
+	"mixins": [
+      "kults_spawner_shards.mixins.json",
+		{
+			"config": "kults_spawner_shards.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
