@@ -38,8 +38,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
 
                 var itemLookup = registryLookup.lookupOrThrow(Registries.ITEM);
-                var potionLookup = registryLookup.lookupOrThrow(Registries.POTION);
-
                 //Spawner Recipe
                 // Unlocks the mob spawner recipe
                 ShapedRecipeBuilder.shaped(itemLookup, RecipeCategory.MISC, Blocks.SPAWNER)
