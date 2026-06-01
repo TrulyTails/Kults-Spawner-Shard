@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kults-spawner-shards:cow_spawn_egg"
+        "recipe": "kults_spawner_shards:wither_skeleton_spawn_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "kults-spawner-shards:cow_spawn_egg"
+      "kults_spawner_shards:wither_skeleton_spawn_egg"
     ]
   }
 }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kults-spawner-shards:magma_cube_spawn_egg"
+        "recipe": "kults_spawner_shards:chicken_spawn_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "kults-spawner-shards:magma_cube_spawn_egg"
+      "kults_spawner_shards:chicken_spawn_egg"
     ]
   }
 }

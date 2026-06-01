@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "kults-spawner-shards",
+	"id": "kults_spawner_shards",
 	"version": "${version}",
 	"name": "Kults Spawner Shards",
 	"description": "This is an example description! Tell everyone what your mod is about!",

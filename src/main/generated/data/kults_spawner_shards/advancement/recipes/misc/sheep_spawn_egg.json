@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_skeleton_spawn_egg": {
+    "has_spawner": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:skeleton_spawn_egg"
+            "items": "minecraft:spawner"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kults-spawner-shards:parched_spawn_egg"
+        "recipe": "kults_spawner_shards:sheep_spawn_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_skeleton_spawn_egg"
+      "has_spawner"
     ]
   ],
   "rewards": {
     "recipes": [
-      "kults-spawner-shards:parched_spawn_egg"
+      "kults_spawner_shards:sheep_spawn_egg"
     ]
   }
 }
